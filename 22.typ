@@ -16,7 +16,7 @@
 
 Послед. $(f_n)$ равн. сх. к ф-ции $f$, если $limits(lim)_(n -> infinity) ||f_n - f|| = 0$, обозн. как $f_n arrows f$
 
-Крит. Коши равн. сх.: послед. $(f_n)$ равн. сх. $<==> forall epsilon > 0 exists n_(epsilon) in NN forall n >= n_(epsilon) forall m >= n_(epsilon) ||f_n - f_m|| < epsilon$
+*Т. (Крит. Коши равн. сх.)*: послед. $(f_n)$ равн. сх. $<==> forall epsilon > 0 exists n_(epsilon) in NN forall n >= n_(epsilon) forall m >= n_(epsilon) ||f_n - f_m|| < epsilon$
 
 *Док-во*: $==>$ : Пусть $epsilon > 0$. Т.к. $f_n arrows f$, то $exists n_(epsilon) in NN$ $n >= n_(epsilon)$ $forall x in X$ $abs(f_n (x) - f(x)) < epsilon/2$, 
 поэтому $forall x in X$ $forall m in NN$ $m > n_(epsilon)$ $abs(f_n (x) - f_m (x)) = abs(f_m - f(x) + f(x) - f_n (x)) <= abs(f_m (x) - f(x)) + abs(f_n (x) - f(x)) < epsilon/2 + epsilon/2 = epsilon $, т.е. выполн. услов. крит. Коши

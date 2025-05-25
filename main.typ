@@ -5,5 +5,6 @@
   #include "23.typ"
   #include "24.typ"
   #include "25.typ"
+  #include "26.typ"
 ]
 

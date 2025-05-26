@@ -11,5 +11,6 @@
   #include "29.typ"
   #include "30.typ"
   #include "31.typ"
+  #include "32.typ"
 ]
 

@@ -2,6 +2,7 @@
 #set text(size: 10pt)
 #text(size: 0.8em)[
   #include "1.typ"
+  #include "2.typ"
   #include "22.typ"
   #include "23.typ"
   #include "24.typ"

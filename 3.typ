@@ -2,7 +2,7 @@
 
 #heading(level: 1)[3]
 
-*Т (крит. интегр-ти)*: $f$ опр. и огр. на $[a,b] ==>$ След-ие условия экв-ны:
+*Т. (крит. интегр-ти)*: $f$ опр. и огр. на $[a,b] ==>$ След-ие условия экв-ны:
 + $f$ интегрируема
 + $forall epsilon > 0 #h(4pt) exists P #h(4pt) S(P) - s(P)<epsilon$
 + $underline(I) = overline(I)$, при этом $underline(I) = overline(I) = limits(integral)^b_a f(x) d x$
